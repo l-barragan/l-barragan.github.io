@@ -42,7 +42,7 @@
 							'images/1f.jpg': 'center',
 							'images/2b.jpg': 'center',
 							
-							'images/7e.jpg': 'center',
+							'images/02.jpg': 'center',
 						},
 
 					// Delay.
