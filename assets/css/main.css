@@ -131,6 +131,7 @@ body {
   transition: opacity 2s ease-in-out;
   height: 100%;
   left: 0;
+  /*opacidad imagenes*/
   opacity: 0.600;
   position: fixed;
   top: 0;

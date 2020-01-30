@@ -37,6 +37,7 @@
 					// Images (in the format of 'url': 'alignment').
 					//fotos
 						images: {
+							
 							'images/9.jpg': 'center',
 							
 							'images/1f.jpg': 'center',
