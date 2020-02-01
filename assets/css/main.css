@@ -262,7 +262,8 @@ a {
   text-decoration: none; }
   a:hover {
     border-bottom-color: transparent;
-    color: #1cb495 !important;
+    color: #1cb495 !important
+    /*color: #1cb495 !important;*/
     text-decoration: none; }
 
 strong, b {
@@ -376,6 +377,7 @@ header h6 + p {
   font-size: 0.9em;
   margin-top: -0.6em;
   line-height: 1.5em; }
+
 
 @media screen and (max-width: 980px) {
   header br {
@@ -752,7 +754,7 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color: #1fcaa7; }
+    background-color:white; }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
