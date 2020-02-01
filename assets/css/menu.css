@@ -39,11 +39,16 @@ nav > ul > li > ul {
 	right:0;
 	overflow:hidden;
 	height:0%;
-	-webkit-transition: all .3s ease;
+	/*-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
 	-ms-transition: all .3s ease;
 	-o-transition: all .3s ease;
-	transition: all .3s ease;
+	transition: all .3s ease;*/
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
 }
 
 nav > ul li a {
@@ -54,16 +59,21 @@ nav > ul li a {
 	position: relative;
 	text-align:center;
 	text-decoration:none;
-	-webkit-transition: all .3s ease;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	/*-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
 	-ms-transition: all .3s ease;
 	-o-transition: all .3s ease;
-	transition: all .3s ease;
+	transition: all .3s ease;*/
 }
 
-nav > ul > li > ul > li a:hover {
-	background:#5da5a2;
-}
+/*nav > ul > li > ul > li a:hover {
+	background:rgb(204, 201, 201);
+}*/
 
 nav > ul > li > a span {
 	background:#174459;
@@ -95,11 +105,13 @@ nav ul li a .primero {
 }
 
 nav ul li a .segundo {
-	background:#5da5a2;
+	/*background:#5da5a2;*/
+	background: palevioletred;
 }
 
 nav ul li a .tercero {
-	background:#f25724;
+	/*background:#f25724;*/
+	background:#0e5061;
 }
 
 nav ul li a .cuarto {
@@ -108,4 +120,18 @@ nav ul li a .cuarto {
 
 nav ul li a .quinto {
 	background:#37a4d9;
+}
+
+nav ul li .segundo:hover {
+	/*background:#5da5a2;*/
+	background: palevioletred;
+}
+
+nav > ul > li > ul > li a:hover {
+	background:rgb(204, 201, 201);
+}
+
+
+/*nav > ul > li > ul > li a:hover {
+	background:rgb(204, 201, 201);
 }

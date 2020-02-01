@@ -1,10 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
-/*
-	Eventually by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -258,11 +254,12 @@ a {
   -ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
   transition: border-bottom-color 0.2s ease, color 0.2s ease;
   border-bottom: dotted 1px rgba(255, 255, 255, 0.25);
-  color: #1cb495;
+  color: background-color:rgb(80, 131, 207);
   text-decoration: none; }
   a:hover {
     border-bottom-color: transparent;
-    color: #1cb495 !important
+    color: background-color:rgb(80, 131, 207); !important
+    
     /*color: #1cb495 !important;*/
     text-decoration: none; }
 
@@ -480,7 +477,7 @@ form {
       -webkit-transform: scale(1);
       -ms-transform: scale(1);
       transform: scale(1);
-      opacity: 1; }
+      opacity: .8; }
     form .message.success {
       color: #1cb495; }
       form .message.success:before {
@@ -722,7 +719,7 @@ input[type="radio"] + label:before {
   color: rgba(255, 255, 255, 0.5) !important;
   opacity: 1.0; }
 
-/* Button */
+/* Button boton*/
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
@@ -736,7 +733,7 @@ button,
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-  background-color: #1cb495;
+  background-color:rgb(41, 92, 168);
   border-radius: 6px;
   border: 0;
   color: #ffffff !important;
@@ -754,7 +751,7 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color:white; }
+    background-color:rgb(50, 106, 190); }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
