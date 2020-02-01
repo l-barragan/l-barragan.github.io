@@ -12,6 +12,7 @@ nav {
 @media screen and (max-width: 480px) {
 	nav{
 		max-width:10px;
+		width:50%;
 	}
 
 
