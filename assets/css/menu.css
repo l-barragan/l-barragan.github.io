@@ -8,18 +8,19 @@ nav {
     width:90%;
 	color:black; }
 	
-	@media screen and (max-width: 350px) {
+	@media screen and (max-width: 620px) {
 		
 		nav {
 			max-width:4000px;
 			width:110%;
-			margin:7px auto;
-			
+			margin:7px auto;	
 		}
 
 		header{
 			top:0px;
 		}
+
+		
 	}
 
 
