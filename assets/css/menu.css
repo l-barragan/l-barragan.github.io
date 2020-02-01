@@ -12,7 +12,13 @@ nav {
 @media screen and (max-width: 480px) {
 	nav{
 		max-width:100px;
-	} }
+	}
+
+	nav ul li .segundo:hover {
+		/*background:#5da5a2;*/
+		background:black;
+	}
+}
 
 nav ul {
 	list-style:none;
