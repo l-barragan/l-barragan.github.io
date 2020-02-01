@@ -7,9 +7,9 @@ nav {
 	max-width:1000px;
     width:90%;
 	color:black; }
-	@media screen and (max-height: 480px){
+	@media (min-width: 481px) and (max-width: 1024px)
 		nav {
-			max-width:2050px;
+			max-width:2000px;
 		}
 	}
 
