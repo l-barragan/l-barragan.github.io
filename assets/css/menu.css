@@ -9,6 +9,11 @@ nav {
     color:black;
 }
 
+@media screen and (max-width: 480px) {
+	nav{
+		max-width:500px;
+	} }
+
 nav ul {
 	list-style:none;
 }
