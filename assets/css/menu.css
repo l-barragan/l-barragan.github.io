@@ -11,7 +11,7 @@ nav {
 
 @media screen and (max-width: 480px) {
 	nav{
-		max-width:500px;
+		max-width:100px;
 	} }
 
 nav ul {
