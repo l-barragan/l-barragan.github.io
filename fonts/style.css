@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('icomoon.eot?mm2xy8');
-  src:  url('icomoon.eot?mm2xy8#iefix') format('embedded-opentype'),
-    url('icomoon.ttf?mm2xy8') format('truetype'),
-    url('icomoon.woff?mm2xy8') format('woff'),
-    url('icomoon.svg?mm2xy8#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?jp82n6');
+  src:  url('fonts/icomoon.eot?jp82n6#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?jp82n6') format('truetype'),
+    url('fonts/icomoon.woff?jp82n6') format('woff'),
+    url('fonts/icomoon.svg?jp82n6#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -35,7 +35,7 @@
   content: "\e921";
 }
 .icon-address-book:before {
-  content: "\e944";
+  content: "\e946";
 }
 .icon-map2:before {
   content: "\e94c";
