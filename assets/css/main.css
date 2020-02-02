@@ -114,10 +114,10 @@ body {
       padding: 6em 3.5em 3.5em 3.5em; } }
   @media screen and (max-width: 736px) {
     body {
-      padding: 5em 2em 2em 2em; } }
+      padding: 5em 1.25em 1.25em 1em; } }
   @media screen and (max-width: 360px) {
     body {
-      padding: 5em 5.25em 1.25em 1.5em; } }
+      padding: 5em 5.25em 1.25em 1em; } }
 
 /* BG */
 #bg {
