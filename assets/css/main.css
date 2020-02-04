@@ -112,7 +112,7 @@ body {
   @media screen and (max-width: 1680px) {
     body {
       padding: 6em 3.5em 3.5em 3.5em; } }
- 
+
   @media screen and (max-width: 360px) {
     body {
       padding: 5em 7.25em 1.25em 1.25em; } }
@@ -245,13 +245,13 @@ body, input, select, textarea {
   @media screen and (max-width: 480px) {
     body, input, select, textarea {
       font-size: 12pt; } }
-
+/*hover sin hover*/
 a {
   -moz-transition: border-bottom-color 0.2s ease, color 0.2s ease;
   -webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
   -ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
   transition: border-bottom-color 0.2s ease, color 0.2s ease;
-  border-bottom: dotted 1px rgba(255, 255, 255, 0.25);
+  
   color: background-color:rgb(80, 131, 207);
   text-decoration: none; }
   a:hover {

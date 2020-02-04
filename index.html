@@ -7,36 +7,33 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/menu.css" />
+		<link rel="stylesheet" href="assets/css/menus.css" />
+		<link rel="stylesheet" href="assets/menu/assets/css/main.css" />
+		
 		<!--<link rel="stylesheet" href="fonts/style.css" />-->
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
 			<header id="header">
-				<nav>
+				<nav id="nav">
 					<ul>
-						<!--<li><a href="#"><span class="primero"><i class="icon icon-house"></i></span>Home</a></li>-->
-						<li><a href="#"><span class="segundo"><i class="icon-library"></i></span>Exhibits</a>
+						<li class="current"><a href="index.html">Home</a></li>
+						<li>
+							<a href="#">Exhibits</a>
 							<ul>
-								<li><a href="assets/submenu/pavilion/index.html">Pavilion</a></li>
-								<!--<li><a href="#">Item #2</a></li>
-								<li><a href="#">Item #3</a></li>
-								<li><a href="#">Item #4</a></li>
-								<li><a href="#">Item #5</a></li>-->
+								<li><a href="assets/submenu/pavilion/index.html">Pavillion</a></li>
+								
 							</ul>
 						</li>
-						<li><a href="#"><span class="tercero"><i class="icon-briefcase"></i></span>Projects</a>
+						<li><a href="#">Projects</a>
 							<ul>
+								<li><a href="assets/submenu/shuba/index.html">Shuba House</a></li>
 								<li><a href="assets/submenu/special/index.html">Contemplation Space</a></li>
-								<li><a href="assets/submenu/shuba/index.html">Shuba House</a></li><!--
-								<li><a href="#">Item #3</a></li>
-								<li><a href="#">Item #4</a></li>
-								<li><a href="#">Item #5</a></li>-->
 							</ul>
 						</li>
-						<!--<li><a href="#"><span class="cuarto"><i class="icon icon-text"></i></span>Acerca de</a></li>-->
-						<li><a href="assets/submenu/contact/index.html"><span class="quinto"><i class="icon-address-book"></i></span>Contact</a></li>
+						<li><a href="assets/submenu/contact/index.html">Contact</a></li>
+						
 					</ul>
 				</nav>
 				<br><br><br>
@@ -72,6 +69,13 @@
 
 		<!-- Scripts -->
 			<script src="assets/js/main.js"></script>
+
+			<script src="assets/menu/assets/js/jquery.min.js"></script>
+			<script src="assets/menu/assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/menu/assets/js/browser.min.js"></script>
+			<script src="assets/menu/assets/js/breakpoints.min.js"></script>
+			<script src="assets/menu/assets/js/util.js"></script>
+			<script src="assets/menu/assets/js/main.js"></script>
 
 	</body>
 </html>
